@@ -6,8 +6,8 @@
 
 from exp.nb_09b import *
 import time
-from fastprogress import master_bar, progress_bar
-from fastprogress.fastprogress import format_time
+# from fastprogress import
+from fastprogress.fastprogress import format_time, master_bar, progress_bar
 
 class AvgStatsCallback(Callback):
     def __init__(self, metrics):
